@@ -1,0 +1,23 @@
+{
+  "name": "antca-website",
+  "version": "0.0.1",
+  "description": "Anthony Camboni website on Github Pages",
+  "main": "public/index.html",
+  "author": "Anthony Camboni <npm@apox.fr>",
+  "license": "MIT",
+  "devDependencies": {
+    "6to5-browserify": "*",
+    "6to5": "*",
+    "watchify": "^1.0.2",
+    "gulp": "^3.8.7",
+    "browserify": "^5.11.0",
+    "vinyl-source-stream": "^0.1.1",
+    "gulp-livereload": "^2.1.1",
+    "gulp-uglifyjs": "^0.5.0",
+    "vinyl-buffer": "^1.0.0",
+    "react": "^0.12.1",
+    "react-router": "^0.11.4",
+    "react-style": "^0.3.1",
+    "reactify": "^0.17.1"
+  }
+}
