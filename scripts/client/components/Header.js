@@ -32,7 +32,7 @@ var photoStyle = ReactStyle({
     position: 'absolute',
     top: -50,
     left: 50,
-    backgroundImage: 'url(public/resume/resume_files/x8fPMvwD_400x400.jpeg)',
+    backgroundImage: 'url(public/images/photoAC.jpeg)',
     backgroundSize:   'cover',
     display: 'inline-block',
     width: 200,

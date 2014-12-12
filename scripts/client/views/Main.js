@@ -4,7 +4,8 @@ var ReactStyle = require('react-style');
 var RouteHandler = require('react-router').RouteHandler;
 
 var appStyle = ReactStyle({
-    height: '100%'
+    height: '100%',
+    backgroundColor: '#354458'
 });
 
 var containerStyle = ReactStyle({

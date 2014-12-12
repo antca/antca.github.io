@@ -1,8 +1,8 @@
-import Main from './views/Main.js';
-import Home from './views/Home.js';
-import Resume from './views/Resume.js';
-import Projects from './views/Projects.js';
-import Contact from './views/Contact.js';
+import Main from './views/Main';
+import Home from './views/Home';
+import Resume from './views/Resume';
+import Projects from './views/Projects';
+import Contact from './views/Contact';
 
 var React = require('react');
 
