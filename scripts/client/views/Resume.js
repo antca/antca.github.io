@@ -1,5 +1,5 @@
 import Utils from '../Utils';
-var React = require('React');
+var React = require('react');
 var ReactStyle = require('react-style');
 
 var resumeStyle = ReactStyle({

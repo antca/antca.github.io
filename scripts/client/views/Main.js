@@ -1,5 +1,5 @@
 import Header from '../components/Header'
-var React = require('React');
+var React = require('react');
 var ReactStyle = require('react-style');
 var RouteHandler = require('react-router').RouteHandler;
 
@@ -18,7 +18,7 @@ var containerStyle = ReactStyle({
 });
 
 var Main = React.createClass({
-    componentDidMount() {
+    componentWillMount() {
         ReactStyle.inject();
     },
     render()  {

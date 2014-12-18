@@ -24,8 +24,8 @@ var sectionStyle = ReactStyle({
     color: colors[3],
     fontSize: 30,
     margin: 20,
-    fontFamily: 'Impact, sans-serif'
-
+    fontFamily: '"Open Sans", Arial, Tahoma',
+    fontWeight: '600'
 });
 
 var photoStyle = ReactStyle({
