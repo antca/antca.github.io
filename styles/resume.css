@@ -343,7 +343,7 @@ a[href]:after {
 }
 
 .badge {
-  margin: 0;
+  margin: 3px;
 }
 
 .list-group-item{

@@ -1,5 +1,8 @@
 import colors from '../colors';
-import locales from '../locales';
+import {mainStore} from '../MainFlux';
+import LanguageSelector from './LanguageSelector';
+
+var Reflux = require('reflux');
 var React = require('react');
 var ReactStyle = require('react-style');
 var Link = require('react-router').Link;
@@ -19,12 +22,12 @@ var headerStyle = ReactStyle({
 
 var sectionStyle = ReactStyle({
     position: 'relative',
-    left: 50,
+    left: 110,
     textDecoration: 'none',
     color: colors[3],
     fontSize: 30,
     margin: 20,
-    fontFamily: '"Open Sans", Arial, Tahoma',
+    fontFamily: 'Courier New, Arial, Tahoma',
     fontWeight: '600'
 });
 
@@ -52,7 +55,19 @@ var titleStyle = ReactStyle({
 });
 
 var Header = React.createClass({
-    mixins: [Router.State],
+    mixins: [Router.State, Reflux.listenTo(mainStore, "onStoreEvent")],
+    getInitialState() {
+      return {
+        loc: mainStore.loc
+      }
+    },
+    onStoreEvent(type) {
+      if(type === 'LANGUAGE_CHANGED') {
+        this.setState({
+          loc: mainStore.loc
+        })
+      }
+    },
     render() {
         return (
             <div styles={headerStyle}>
@@ -63,8 +78,9 @@ var Header = React.createClass({
                      var activeStyle = ReactStyle({
                          textDecoration: this.isActive(page) ? 'underline' : 'none'
                      });
-                     return <Link styles={[sectionStyle, activeStyle]} key={index} to={page}>{locales.fr[page].toUpperCase()}</Link>
+                     return <Link className="page-link" styles={[sectionStyle, activeStyle]} key={index} to={page}>{this.state.loc[page].toUpperCase()}</Link>
                  })}
+                 <LanguageSelector />
             </div>
         )
     }
