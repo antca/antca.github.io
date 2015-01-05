@@ -9,12 +9,13 @@ var mainActions = Reflux.createActions([
 var mainStore = Reflux.createStore({
   listenables: mainActions,
   init() {
-      this.language = 'fr';
+      this.language = localStorage['lang'] || 'fr';
       this.loc = locales[this.language];
   },
   onChangeLanguage(language) {
     this.language = language;
     this.loc = locales[this.language];
+    localStorage['lang'] = this.language;
     this.trigger('LANGUAGE_CHANGED');
   }
 });

@@ -1,11 +1,11 @@
 //import React-Style first to avoid production bug.
 var ReactStyle = require('react-style');
 
-import Main from './views/Main';
-import Home from './views/Home';
-import Resume from './views/Resume';
-import Projects from './views/Projects';
-import Contact from './views/Contact';
+import Main from './components/Main';
+import Home from './components/Home';
+import Resume from './components/Resume';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 var React = require('react');
 

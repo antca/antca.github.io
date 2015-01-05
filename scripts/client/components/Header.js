@@ -28,7 +28,8 @@ var sectionStyle = ReactStyle({
     fontSize: 30,
     margin: 20,
     fontFamily: 'Courier New, Arial, Tahoma',
-    fontWeight: '600'
+    fontWeight: '600',
+    textShadow: '2px 2px 5px black'
 });
 
 var photoStyle = ReactStyle({
