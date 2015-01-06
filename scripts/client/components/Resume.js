@@ -1,13 +1,7 @@
 import Utils from '../Utils';
 import {mainStore} from '../MainFlux';
 var React = require('react');
-var ReactStyle = require('react-style');
 var Reflux = require('reflux');
-
-var resumeStyle = ReactStyle({
-  position: 'relative',
-  width: 1024
-});
 
 var Resume = React.createClass({
     mixins: [Reflux.listenTo(mainStore, "onStoreEvent")],
@@ -36,7 +30,7 @@ var Resume = React.createClass({
     },
     render() {
       return (
-        <div styles={resumeStyle} ref="container" />
+        <div className="resume_wrap" ref="container" />
       );
     }
 });

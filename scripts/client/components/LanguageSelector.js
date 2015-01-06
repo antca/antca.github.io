@@ -1,22 +1,7 @@
 import {mainStore, mainActions} from '../MainFlux';
 
 var React = require('react');
-var ReactStyle = require('react-style');
 var Reflux = require('reflux');
-
-var flags = {
-  fr: 'http://pix.iemoji.com/twit33/0188.png',
-  en: 'http://pix.iemoji.com/twit33/0189.png'
-};
-
-var languageSelectotStyle = ReactStyle({
-  position: 'relative',
-  top: -30,
-  left: -20,
-  width: 20,
-  height: 20,
-  float: 'right'
-});
 
 var LanguageSelector = React.createClass({
   mixins: [Reflux.listenTo(mainStore, "onStoreEvent")],
@@ -37,8 +22,7 @@ var LanguageSelector = React.createClass({
   },
   render() {
     return (
-      <div styles={languageSelectotStyle} onClick={this.swapLang}>
-        <img src={flags[this.state.lang]}/>
+      <div className={`language-selector_wrap language-selector_flag-${this.state.lang}`} onClick={this.swapLang}>
       </div>
     )
   }

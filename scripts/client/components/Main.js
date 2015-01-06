@@ -1,35 +1,35 @@
 import Header from '../components/Header'
+import Footer from '../components/Footer'
+import {mainStore} from '../MainFlux';
+
+var Reflux = require('reflux');
 var React = require('react');
-var ReactStyle = require('react-style');
 var RouteHandler = require('react-router').RouteHandler;
 
-var appStyle = ReactStyle({
-    height: '100%',
-    backgroundColor: '#354458'
-});
-
-var containerStyle = ReactStyle({
-    background: '#FFFFFF',
-    minHeight: '100%',
-    width: 1024,
-    margin: '0 auto',
-    textAlign: 'center',
-    boxShadow: '5px 5px 5px #000000'
-});
-
 var Main = React.createClass({
-    componentWillMount() {
-        ReactStyle.inject();
-    },
-    render()  {
-        return (
-            <div styles={appStyle}>
-                <Header />
-                <div styles={containerStyle}>
-                    <RouteHandler />
-                </div>
-            </div>
-        )
+  mixins: [Reflux.listenTo(mainStore, "onStoreEvent")],
+  getInitialState() {
+    return {
+      loc: mainStore.loc
+    }
+  },
+  onStoreEvent(type) {
+    if(type === 'LANGUAGE_CHANGED') {
+      this.setState({
+        loc: mainStore.loc
+      });
+    }
+  },
+  render()  {
+      return (
+          <div className="main_wrap">
+              <Header loc={this.state.loc}/>
+              <div className="main_container">
+                  <RouteHandler />
+              </div>
+              <Footer />
+          </div>
+      )
     }
 });
 

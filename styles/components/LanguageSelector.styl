@@ -1,0 +1,27 @@
+flags = {
+  fr: url(http://pix.iemoji.com/twit33/0188.png)
+  en: url(http://pix.iemoji.com/twit33/0189.png)
+}
+
+.language-selector_wrap
+  position absolute
+  width 33px
+  height 22px
+  right 20px
+  top 10px
+  box-shadow 2px 2px 5px black
+  background-position 0 -5px
+  border-radius 5px
+  cursor pointer
+
+.language-selector_wrap:hover
+  color white
+  top 9px
+  box-shadow 6px 6px 5px black
+  transition top 0.3s, box-shadow 0.3s
+
+.language-selector_flag-fr
+  background-image: flags.fr
+
+.language-selector_flag-en
+  background-image: flags.en

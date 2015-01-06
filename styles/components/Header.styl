@@ -1,0 +1,114 @@
+.header_wrap
+  height 250px
+  user-select none
+
+.header_main
+  position relative
+  top 75px
+  background-color color4
+  height 100px
+  text-align center
+  line-height 100px
+  border-radius 20px
+  box-shadow 5px 5px 5px #000000
+
+.header_section-wrap
+  position relative
+
+.header_section
+  position relative
+  top 0
+  right 0
+  text-decoration none
+  color color3
+  font-size 30px
+  margin 20px
+  font-family Courier, New Arial, Tahoma
+  font-weight 600px
+  text-shadow 2px 2px 5px black
+
+.header_section:focus
+  color white
+
+.header_section:hover
+  color white
+  top -1px
+  text-shadow 6px 6px 5px black
+  transition top 0.3s, text-shadow 0.3s
+
+.header_photo
+  position absolute
+  top -50px
+  left 50px
+  background-image url(/public/images/photoAC.jpeg)
+  background-size cover
+  display inline-block
+  width 200px
+  height 200px
+  border-radius 125px
+
+.header_title
+  width 250px
+  display inline-block
+  position absolute
+  color white
+  font-size 30px
+  font-family 'Lobster' 'cursive'
+  bottom -20px
+  left -30px
+
+.header_nav
+  position relative
+  left 110px
+
+.header_menu
+  display none
+
+.header_menu-icon
+  display none
+
+
+@media only screen and (max-width 960px)
+  .header_nav
+    display none
+
+  .header_menu
+    position relative
+    display inline
+    border solid 2px rgba(100, 100, 100, 0.5)
+    border-radius 5px
+    background-color rgba(100, 100, 100, 0.3)
+    height 20px
+    text-decoration none
+    color color3
+    font-size 30px
+    margin 20px
+    font-family Courier, New Arial, Tahoma
+    font-weight 600px
+    text-shadow 2px 2px 5px black
+    padding 10px
+    left 100px
+
+@media only screen and (max-width 480px)
+  .header_menu
+    display none
+
+  .header_menu-icon
+    position absolute
+    display inline-block
+    border solid 2px rgba(100, 100, 100, 0.5)
+    border-radius 5px
+    background-color rgba(100, 100, 100, 0.3)
+    height 50px
+    width 50px
+    color color3
+    font-size 30px
+    text-shadow 2px 2px 5px black
+    left 10px
+    top -220px
+    line-height 50px
+
+  .header_photo
+    position relative
+    left 0
+    margin 0 auto
