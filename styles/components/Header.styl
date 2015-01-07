@@ -9,21 +9,34 @@
   height 100px
   text-align center
   line-height 100px
-  border-radius 20px
-  box-shadow 5px 5px 5px #000000
+  border-radius 5px
+  box-shadow 5px 5px 5px black
+
+.header_main.scroll
+  z-index 100
+  position fixed
+  left 0
+  top 0
+  height 45px
+  line-height 45px
+  border-radius 0
+  text-align left
+  width 100%
 
 .header_section-wrap
   position relative
 
+.header_section-wrap.scroll
+  position relative
+  text-align center
+
 .header_section
   position relative
-  top 0
-  right 0
   text-decoration none
   color color3
   font-size 30px
   margin 20px
-  font-family Courier, New Arial, Tahoma
+  font-family Courier New, Arial, Tahoma
   font-weight 600px
   text-shadow 2px 2px 5px black
 
@@ -47,19 +60,35 @@
   height 200px
   border-radius 125px
 
+.header_photo.scroll
+  width 40px
+  height 40px
+  left 5px
+  top 3px
+
 .header_title
   width 250px
   display inline-block
   position absolute
   color white
   font-size 30px
-  font-family 'Lobster' 'cursive'
+  font-family Lobster, cursive
   bottom -20px
   left -30px
 
+.header_title.scroll
+  font-size 23px
+  left 50px
+  bottom 5px
+  line-height 35px
+
 .header_nav
   position relative
-  left 110px
+  width 75%
+  left 200px
+
+.header_nav.scroll
+  left 200px
 
 .header_menu
   display none
@@ -75,40 +104,53 @@
   .header_menu
     position relative
     display inline
-    border solid 2px rgba(100, 100, 100, 0.5)
-    border-radius 5px
-    background-color rgba(100, 100, 100, 0.3)
-    height 20px
     text-decoration none
     color color3
-    font-size 30px
-    margin 20px
+    font-size 50px
     font-family Courier, New Arial, Tahoma
     font-weight 600px
     text-shadow 2px 2px 5px black
-    padding 10px
+    padding 2px
     left 100px
+    top 2px
+
+  .header_menu-icon
+    position absolute
+    display inline-block
+    border solid 2px rgba(255, 255, 255, 0.5)
+    border-radius 5px
+    background-color rgba(255, 255, 255, 0.3)
+    height 40px
+    width 40px
+    color color3
+    font-size 30px
+    text-shadow 2px 2px 5px black
+    left 5px
+    top 32px
+    line-height 36px
+    cursor pointer
+
+  .header_menu-icon.scroll
+    top 2px
+
+  .header_photo.scroll
+    left 60px
 
 @media only screen and (max-width 480px)
   .header_menu
     display none
 
+  .header_menu-icon.scroll
+    top -56px
+
   .header_menu-icon
-    position absolute
-    display inline-block
-    border solid 2px rgba(100, 100, 100, 0.5)
-    border-radius 5px
-    background-color rgba(100, 100, 100, 0.3)
-    height 50px
-    width 50px
-    color color3
-    font-size 30px
-    text-shadow 2px 2px 5px black
-    left 10px
-    top -220px
-    line-height 50px
+    top -215px
+
+
+  .header_photo.scroll
+    left 60px
 
   .header_photo
     position relative
-    left 0
+    left 5px
     margin 0 auto

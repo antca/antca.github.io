@@ -17,11 +17,10 @@ var Projects = React.createClass({
     });
   },
   render()  {
-    console.log(this.state.projects);
       return (
         <div className="projects_wrap">
           {this.state.projects.map((project, key) => {
-            return <ProjectDisplay key={key} side={key % 2 === 0 ? 'even' : 'odd'} project={project} />
+            return <ProjectDisplay key={key} side={key % 2 === 0 ? 'even' : 'odd'} project={project} lang={this.props.lang}/>
           })}
         </div>
       )

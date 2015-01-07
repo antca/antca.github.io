@@ -6,7 +6,7 @@ var Utils = {
               if(request.status === 200) {
                   callback(request.response);
               } else {
-                  callback(`<h1>Error ${request.status}: ${request.statusText}</h1>`);
+                  callback(`Error ${request.status}: ${request.statusText}`);
               }
           }
         };

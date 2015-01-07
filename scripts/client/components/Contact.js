@@ -3,8 +3,7 @@ var React = require('react');
 var Contact = React.createClass({
    render() {
       return (
-        <div className="container contact_wrap">
-          <div className="row">
+          <div className="row contact_wrap">
             <div className="col-md-8 col-md-offset-2">
               <form action="https://getsimpleform.com/messages?form_api_token=8f91eaad9fcad211624674b8c59cfcf3" method="post">
                 <input type="hidden" name="redirect_to" value={window.location} />
@@ -24,7 +23,6 @@ var Contact = React.createClass({
               </form>
             </div>
           </div>
-        </div>
       )
    }
 });

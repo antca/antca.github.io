@@ -12,7 +12,7 @@ blockquote {
 
 .container{
   text-align: left;
-  max-width: 1024px;
+  max-width: 960px;
   font-family: 'Open Sans', Arial, Tahoma;
   font-weight: 400;
   color: #363636;
@@ -113,7 +113,7 @@ blockquote {
 #education .year{
   width: 10%;
   background: #fff;
-  padding: 10px;
+  padding: 3px;
   font-weight: 700;
   display: inline-block;
 }
