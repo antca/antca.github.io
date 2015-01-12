@@ -1,8 +1,7 @@
 import * as React from 'react/addons';
-
-var Link = require('react-router').Link;
-var Router = require('react-router');
-
+import * as Router from 'react-router';
+import {mainActions} from '../MainFlux';
+var Link = Router.Link;
 var cs = React.addons.classSet;
 
 var DrawerMenu = React.createClass({
@@ -14,7 +13,7 @@ var DrawerMenu = React.createClass({
           var activeStyle = {
             textDecoration: this.isActive(page) ? 'underline' : 'none'
           };
-          return <Link className="drawer-menu_section header_section page-link" style={activeStyle} key={index} to={page}>{this.props.loc[page].toUpperCase()}</Link>
+          return <Link className="drawer-menu_section header_section page-link" style={activeStyle} key={index} to={page} onClick={mainActions.toggleDrawerMenu} >{this.props.loc[page].toUpperCase()}</Link>
         })}
       </div>
     );

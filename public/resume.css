@@ -10,13 +10,12 @@ blockquote {
   font-size: 1em;
 }
 
-.container{
+.container {
   text-align: left;
-  max-width: 960px;
+  max-width: 900px;
   font-family: 'Open Sans', Arial, Tahoma;
   font-weight: 400;
   color: #363636;
-  margin-bottom: 15px;
   background: #fff;
 }
 

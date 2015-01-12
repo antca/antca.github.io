@@ -1,9 +1,9 @@
-var React = require('react');
+import * as React from 'react';
 
 var Home = React.createClass({
    render()  {
       return (
-          <div>
+          <div className="home_wrap sheet-container">
               <img src="public/images/construction.png"/>
           </div>
       )

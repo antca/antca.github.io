@@ -23,15 +23,10 @@ var ProjectDisplay = React.createClass({
     return nextProps.lang !== this.props.lang
   },
   render() {
-    var bgColor = {
-      backgroundColor: this.props.side === 'even' ? '#227C74' : '#32475C'
-    };
-    var imageSide = {
-      float: this.props.side === 'even' ? 'left' : 'right'
-    };
     return (
-      <div className="project-display_wrap" style={bgColor}>
-        <div ref="body" />
+      <div className={"project-display_wrap sheet-container " + this.props.side}>
+        <div className="project-display_body" ref="body" />
+        <div className="clearfix" />
       </div>
     );
   }

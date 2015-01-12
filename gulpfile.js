@@ -1,5 +1,6 @@
 var path = require('path');
 var gulp = require('gulp');
+var serve = require('gulp-serve');
 var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var watchify = require('watchify');
@@ -8,6 +9,7 @@ var livereload = require('gulp-livereload');
 var uglify = require('gulp-uglifyjs');
 var buffer = require('vinyl-buffer');
 var stylus = require('gulp-stylus');
+var bootstrap = require('bootstrap-styl');
 var nib = require('nib');
 
 watchify.args.debug = true;
@@ -56,14 +58,19 @@ gulp.task('stylesheets', function(){
   gulp.watch('styles/**/*', function() {
     gulp.src('./styles/index.styl')
     .pipe(stylus({
-      use: nib()
+      use: [nib(), bootstrap()]
     }))
     .pipe(gulp.dest('./public'))
     .pipe(livereload());
   });
 });
 
-gulp.task('dev', ['clientScripts', 'stylesheets']);
+gulp.task('serve', serve({
+    root: [__dirname],
+    port: 8080
+}));
+
+gulp.task('dev', ['clientScripts', 'stylesheets', 'serve']);
 
 gulp.task('prod', ['prodClientScripts']);
 

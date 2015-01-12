@@ -2,10 +2,9 @@ import Header from './Header';
 import Footer from './Footer';
 import DrawerMenu from './DrawerMenu';
 import {mainStore} from '../MainFlux';
-
-var Reflux = require('reflux');
-var React = require('react');
-var RouteHandler = require('react-router').RouteHandler;
+import * as React from 'react';
+import * as Reflux from 'reflux';
+import {RouteHandler} from 'react-router';
 
 var Main = React.createClass({
   mixins: [Reflux.listenTo(mainStore, "onStoreEvent")],

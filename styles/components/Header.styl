@@ -1,6 +1,8 @@
 .header_wrap
-  height 250px
+  height 220px
   user-select none
+  a:focus
+    outline none
 
 .header_main
   position relative
@@ -53,7 +55,8 @@
   position absolute
   top -50px
   left 50px
-  background-image url(/public/images/photoAC.jpeg)
+  z-index 101
+  background-image url(/public/images/photo_ac.jpeg)
   background-size cover
   display inline-block
   width 200px
@@ -113,6 +116,7 @@
     padding 2px
     left 100px
     top 2px
+    cursor pointer
 
   .header_menu-icon
     position absolute
@@ -135,6 +139,9 @@
 
   .header_photo.scroll
     left 60px
+    
+  .header_title.scroll
+    width 175px
 
 @media only screen and (max-width 480px)
   .header_menu

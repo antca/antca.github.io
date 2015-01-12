@@ -1,6 +1,6 @@
 import Utils from '../Utils';
-var React = require('react');
-var Reflux = require('reflux');
+import * as React from 'react';
+import * as Reflux from 'reflux';
 
 var Resume = React.createClass({
     updateResume() {
@@ -19,9 +19,9 @@ var Resume = React.createClass({
     },
     render() {
       return (
-        <div>
-          <div className="resume_wrap" ref="container" />
-          <div className="resume_credit">Credit to M. Adam Kendall for the JSON Resume theme (<a href="https://github.com/LinuxBozo/jsonresume-theme-kendall">LinuxBozo@GitHub</a>)</div>
+        <div className="resume_wrap" >
+          <div className="sheet-container" ref="container" />
+          <div className="resume_credit sheet-container">Credit to M. Adam Kendall for the JSON Resume theme (<a href="https://github.com/LinuxBozo/jsonresume-theme-kendall">LinuxBozo@GitHub</a>)</div>
         </div>
       );
     }
