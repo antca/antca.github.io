@@ -1,19 +1,16 @@
 import * as React from 'react';
 import Utils from '../Utils';
-import {markdown} from 'markdown';
+import * as markdown from 'markdown-it';
+
+var md = markdown({html: true});
 
 var ProjectDisplay = React.createClass({
-  getInitialState() {
-    return {
-      content: ''
-    }
-  },
   componentDidMount() {
     this.updateProject();
   },
   updateProject() {
     Utils.getAjax(`/public/projects/${this.props.project}-${this.props.lang}.md`, (content) => {
-      this.refs.body.getDOMNode().innerHTML = markdown.toHTML(content);
+      this.refs.body.getDOMNode().innerHTML = md.render(content);
     });
   },
   componentDidUpdate() {

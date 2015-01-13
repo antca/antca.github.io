@@ -12,18 +12,18 @@ var Contact = React.createClass({
               <form action="https://getsimpleform.com/messages?form_api_token=8f91eaad9fcad211624674b8c59cfcf3" method="post">
                 <input type="hidden" name="redirect_to" value={window.location + "?sent=true"} />
                 <div className="form-group" >
-                  <label for="name"> Nom </label>
+                  <label for="name"> {this.props.loc["contact_form"]["name"]} </label>
                   <input className="form-control" type="text" name="name" />
                 </div>
                 <div className="form-group" >
-                  <label for="email"> E-mail </label>
+                  <label for="email"> {this.props.loc["contact_form"]["email"]} </label>
                   <input className="form-control" type="email" name="email" />
                 </div>
                   <div className="form-group" >
-                  <label  for="message"> Message </label>
+                  <label  for="message"> {this.props.loc["contact_form"]["message"]} </label>
                   <textarea className="form-control" name="message" rows="10"></textarea>
                 </div>
-                <input className="btn" type="submit" value="Envoyer" />
+                <input className="btn" type="submit" value={this.props.loc["contact_form"]["send"]} />
               </form>
             </div>
           </div>

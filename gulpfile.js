@@ -65,6 +65,15 @@ gulp.task('stylesheets', function(){
   });
 });
 
+gulp.task('prodStylesheets', function(){
+  gulp.src('./styles/index.styl')
+  .pipe(stylus({
+    use: [nib(), bootstrap()],
+    compress: true
+  }))
+  .pipe(gulp.dest('./public'));
+});
+
 gulp.task('serve', serve({
     root: [__dirname],
     port: 8080
@@ -72,6 +81,6 @@ gulp.task('serve', serve({
 
 gulp.task('dev', ['clientScripts', 'stylesheets', 'serve']);
 
-gulp.task('prod', ['prodClientScripts']);
+gulp.task('prod', ['prodClientScripts', 'prodStylesheets']);
 
 gulp.task('default', ['dev']);

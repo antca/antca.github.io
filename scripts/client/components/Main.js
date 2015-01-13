@@ -50,9 +50,9 @@ var Main = React.createClass({
           <div className="main_wrap" >
               <Header sections={mainStore.sections} loc={this.state.loc} scroll={this.state.scroll} />
               <div className="main_container" >
-                  <RouteHandler lang={this.state.lang} />
+                  <RouteHandler loc={this.state.loc} lang={this.state.lang} />
               </div>
-              <Footer />
+              <Footer loc={this.state.loc} />
               <DrawerMenu isOpen={this.state.drawerOpen} sections={mainStore.sections} loc={this.state.loc}/>
           </div>
       )
