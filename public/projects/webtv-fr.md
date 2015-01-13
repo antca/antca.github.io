@@ -10,5 +10,6 @@ Il offre pour le moment un petit nombre de fonctionnalités (sauvegarde de chain
 
 
 Vous pouvez aller le tester ici : [Live Player](http://player.apox.fr)
+(Cette version peut avoir des problèmes de performance sur firefox)
 
 Sources disponibles bientôt !
