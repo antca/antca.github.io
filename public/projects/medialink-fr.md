@@ -2,7 +2,7 @@
 
 ![main_image](/public/images/medialink.png)
 
-Medialink est une petite application développée l'année passée dans le but de me familiariser avec l'API Android native.
+Medialink est une petite application développée au début de l'année 2014 dans le but de me familiariser avec l'API Android native.
 Sous son apparence simpliste elle exploite pas mal de fonctionnalités du système (réseau, notifications, services, stockage, partage de contenu, ...).
 ---
 *MediaLink vous offre la possibilité d'obtenir un lien web à partager pour les média que vous voulez.

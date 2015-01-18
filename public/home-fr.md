@@ -1,5 +1,3 @@
-### Bienvenue sur mon site web!
-
 Je me présente! Anthony Camboni, fraichement diplômé (bachelier) en informatique et système, passionné par le développement et par les technologies qui tournent autour du web.
 
 Je vis en Belgique et je suis actuellement à la recherche d'un emploi dans le domaine du web en tant que développeur, principalement front-end.
