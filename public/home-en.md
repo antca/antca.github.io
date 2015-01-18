@@ -1,5 +1,3 @@
-### Welcome to my website!
-
 I introduce myself! Anthony Camboni, just graduated in Information Technology and Systems, developement and web technologies enthusiast.
 
 I live in Belgium and I am looking for a job on the web field, mainly as a front-end developer.
