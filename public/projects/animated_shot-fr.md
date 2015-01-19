@@ -2,7 +2,7 @@
 
 ![main_image](/public/images/keyboard_cat.gif)
 
-Animated screenshot est une application développée en Java principalement avec Swing et quelques bindings sur une librairie native (Xuggler).
+Animated Screenshot est une application développée en Java principalement avec Swing et quelques bindings sur une librairie native (Xuggler).
 
 Elle permet de capturer une zone de l'écran en vidéo et propose ensuite un petit éditeur avec quelques options (re-size, crop, frame-rate, yoyo, etc...). Elle convertit ensuite le résultat en GIF et permet l'envoi du résultat sur un hébergeur d'images.
 

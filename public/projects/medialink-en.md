@@ -2,7 +2,7 @@
 
 ![main_image](/public/images/medialink.png)
 
-Medialink is a little app developed last year to learn to use the the native Android API.
+Medialink is a little app developed in early 2014 to learn how to use the the native Android API.
 
 Under a simple appearance it employs a good amount of the Android system functionalities (network, notifications, services, storage, content sharing, ...).
 
@@ -25,5 +25,5 @@ You can still download it from the Google Play Store.
 
 <a href="https://play.google.com/store/apps/details?id=fr.apox.medialink">
   <img alt="Get it on Google Play"
-       src="https://developer.android.com/images/brand/fr_generic_rgb_wo_45.png" />
+       src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" />
 </a>

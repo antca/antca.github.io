@@ -4,7 +4,7 @@ Angular chat is just a little chat app with limited functionalities at the momen
 
 It provides user authentification via several services.
 
-It was developed with AngularJs, Bootstrap, NodeJS, Express and PassportJS.
+It was developed with AngularJs, Bootstrap, NodeJS, Express, Redis and PassportJS.
 
 ![chat](/public/images/chat.png)
 

@@ -5,7 +5,7 @@ Ce n'est pas vraiment un projet en particulier, mais au cours de ces derniers mo
 ### Brick
 
 Petite démo faite avec Phaser qui normalement devait être un casse-brique... Mais finalement non. :D
-Il y a pas d'ennemis, pas vraiment de but. On peut juste se déplacer, tirer et wrapper d'un côté à l'autre.
+Il y a pas d'ennemis, pas vraiment de but. On peut juste se déplacer, tirer et wrapper d'un côté à l'autre de l'écran.
 Au final je trouve Phaser très agréable, même si on se retrouve parfois à manquer un peu liberté.
 
 ![Brick](https://github.com/Apoxx/Brick/raw/master/screenshot.png)

@@ -4,7 +4,7 @@ Angular chat est juste un petit chat aux fonctionnalités limitées pour le mome
 
 Il permet d'authentifier les utilisateurs via différents services.
 
-Il a été développé avec AngularJS, Bootstrap, NodeJS, Express et PassportJS.
+Il a été développé avec AngularJS, Bootstrap, NodeJS, Express, Redis et PassportJS.
 
 ![chat](/public/images/chat.png)
 

@@ -9,7 +9,7 @@ At the moment, It offers quite a limited set of functionalities (channel saving,
 
 ![player](/public/images/player.png)
 
-you can try it here : [Live Player](http://player.apox.fr)
+You can try it here : [Live Player](http://player.apox.fr)
 (This version can have some performance issues with Firefox)
 
 Sources will be available soon !
