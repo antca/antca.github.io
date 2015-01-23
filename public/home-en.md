@@ -1,4 +1,4 @@
-# **Anthony Camboni, web developer.**
+# **Anthony Camboni, web developer**
 <br />
 Just graduated in **Information Technology and Systems (bachelor)**, developement and **web** technologies enthusiast.
 

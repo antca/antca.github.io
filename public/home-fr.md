@@ -1,4 +1,4 @@
- # **Anthony Camboni, développeur web**.
+ # **Anthony Camboni, développeur web**
 <br />
 Récemment **diplômé (bachelier) en informatique et système**, je passionné par le développement et par les technologies qui tournent autour du **web**.
 
