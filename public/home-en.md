@@ -1,15 +1,22 @@
-# **Anthony Camboni, web developer**
+# **Anthony Camboni**
+## **web developer**
 <br />
-Just graduated in **Information Technology and Systems (bachelor)**, developement and **web** technologies enthusiast.
 
-I live in Belgium and I am looking for a job on the web field, mainly as a **front-end developer**.
+Recently graduated in Information Technology and Systems (Bachelor), I am looking for a job in the IT field, especially as a web developer.
+My Bachelor degree is not directly about web development but I started to get interested in that field about a year ago. Since then I invest a lot of time learning and practicing by myself.
 
-Currently, I invest a lot of time in learning new web technologies.
-About that, this website is developed helped by React and is hosted on GiHub.
-You can check my other personnal projects in the dedicated section: [PROJECTS](#/projects)
+I began with NodeJS and the JavaScript ecosystem and I am now learning PHP in depth to become a more versatile web developer.
+Also, I developed other software before that, mainly in Java. 
+You can check my personnal projects in the dedicated section: [projects](#/projects).
+I also have a good knowledge in system administration (Linux and Windows) and also networks (CCNA).
 
-If you want to know a bit more about my qualifications, you can check my [RESUME](#/resume).
+Now that I finished my studies, I can't wait to work on web projects as a full-time job!
 
-You can contact me by email at the address *anthony(at)camboni.be* or via the [contact form](#/contact).
+
+If you want to know a bit more about my qualifications, you can check my [resume](#/resume).
+
+You can contact me by email at the address **anthony(at)camboni.be** or via the [contact form](#/contact).
+
+I hope we get in touch soon !
 
 #### Enjoy the visit!

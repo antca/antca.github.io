@@ -1,13 +1,22 @@
- # **Anthony Camboni, développeur web**
+# **Anthony Camboni**
+## **développeur web**
 <br />
-Récemment **diplômé (bachelier) en informatique et système**, je passionné par le développement et par les technologies qui tournent autour du **web**.
 
-Je vis en Belgique et je suis actuellement à la recherche d'un emploi dans ce domaine en tant que développeur, principalement **front-end**.
+Récemment diplômé en Informatique et Systèmes (bachelier), je suis à la recherche d'un emploi dans le domaine informatique, en particulier en tant que développeur web.
+Mon diplôme n'est pas directement orienté sur développement web, mais j'ai commencé à m'intéresser à ce domaine il y a un peu plus d'un an. Depuis lors j'investis beaucoup de temps à apprendre et pratiquer par moi-même.
 
-En ce moment, j'investis beaucoup de temps dans l'apprentissage de *nouvelles technologies web*. D'ailleurs ce site web est développé à l'aide de React et hébergé sur GitHub. Vous pouvez trouver d'autres projets personnels dans la section concernée: **[Projets](#/projects)**
+J'ai commencé avec NodeJS et l'écosystème JavaScript et j'apprends maintenant PHP en profondeur pour devenir un développeur web plus polyvalent.
+Aussi, j'ai développé d'autres logiciels avant ça, principalement en Java.
+Vous pouvez découvrir certains de mes projets personnels dans la section dédiée: [projets](#/projets).
+J'ai aussi une bonne connaissance en administration système (Linux et Windows) et également réseaux (CCNA).
 
-Si vous voulez en savoir plus sur mes compétences vous pouvez aller visiter la page de mon **[CV](#/resume)**.
+Maintenant que j'ai terminé mes études, je suis impatient de travailler sur des projets web à temps plein!
 
-Il est possible de me contacter par email à l'adresse *anthony(at)camboni.be* ou via le formulaire de **[contact](#/contact)**.
+
+Si vous voulez en savoir un peu plus sur mes qualifications, vous pouvez consulter mon [CV](#/CV).
+
+Vous pouvez me contacter par courriel à l'adresse **anthony(at)camboni.be** ou via le [formulaire de contact](#/contact).
+
+J'espère que nous entrerons en contact bientôt!
 
 #### Bonne visite!
