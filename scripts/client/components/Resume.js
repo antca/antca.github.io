@@ -4,7 +4,7 @@ import * as Reflux from 'reflux';
 
 var Resume = React.createClass({
     updateResume() {
-      Utils.getAjax('public/resume-' + this.props.lang + '.html', (response) => {
+      Utils.getAjax(`public/resume/resume-${this.props.lang}.html`, (response) => {
         this.refs.container.getDOMNode().innerHTML = response;
       });
     },

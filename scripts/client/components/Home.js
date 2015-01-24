@@ -9,7 +9,7 @@ var Home = React.createClass({
         this.updateProject();
     },
     updateProject() {
-        Utils.getAjax(`/public/home-${this.props.lang}.md`, (content) => {
+        Utils.getAjax(`/public/home/home-${this.props.lang}.md`, (content) => {
           this.refs.body.getDOMNode().innerHTML = md.render(content);
         });
     },
