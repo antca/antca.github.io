@@ -10,7 +10,8 @@ var mainActions = Reflux.createActions([
 var mainStore = Reflux.createStore({
   listenables: mainActions,
   init() {
-      this.language = localStorage['lang'] || /en/.test(window.navigator.userLanguage || window.navigator.language) ? 'en' : 'fr';
+      this.language = localStorage['lang'] || (/en/.test(window.navigator.userLanguage || window.navigator.language) ? 'en' : 'fr');
+      console.log(this.language);
       this.loc = locales[this.language];
       this.sections = ['home', 'resume', 'projects', 'contact'];
       this.drawerOpen = false;
