@@ -23,9 +23,4 @@ MediaLink offre également un historique des fichiers que vous avez envoyé.Vous
 
 Les sources ne sont pas disponibles pour le moment mais j'ai l'intention de les rendre publics après un petit nettoyage/bugfix...
 
-En attendant vous pouvez toujours la télécharger sur le Google Play Store.
-
-<a href="https://play.google.com/store/apps/details?id=fr.apox.medialink">
-  <img alt="Get it on Google Play"
-       src="https://developer.android.com/images/brand/fr_generic_rgb_wo_45.png" />
-</a>
+**REM (31/01/2015) : Le service sur lequel était basé l'application ([MediaCrush](https://www.mediacru.sh/)) a été arreté récemment. Je pense donc mettre à jour l'application plus rapidement que prévu ! J'ai enlevé le lien de téléchargement au passage.**

@@ -21,9 +21,4 @@ You can follow the uploading process in the notifications and then copy the link
 
 The sources are not available at the moment but, I planned to publish them after some cleaning/bugfixes...
 
-You can still download it from the Google Play Store.
-
-<a href="https://play.google.com/store/apps/details?id=fr.apox.medialink">
-  <img alt="Get it on Google Play"
-       src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" />
-</a>
+**REM (31/01/2015) : The service on which the app is based ([MediaCrush](https://www.mediacru.sh/)) has recently stopped. So, I think I will update the app really soon. I removed the download link by the way.**
