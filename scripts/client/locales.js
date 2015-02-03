@@ -1,7 +1,7 @@
 var locales = {
     "fr": {
         "resume": "cv",
-        "home": "acceuil",
+        "home": "accueil",
         "contact": "contact",
         "projects": "projets",
         "footer_notice" : "© Antho... Ahaha! Non vous pouvez aller voir les sources sur mon",
