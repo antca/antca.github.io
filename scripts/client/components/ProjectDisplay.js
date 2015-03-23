@@ -1,6 +1,6 @@
-import * as React from 'react';
+import React from 'react';
 import Utils from '../Utils';
-import * as markdown from 'markdown-it';
+import markdown from 'markdown-it';
 
 var md = markdown({html: true});
 

@@ -1,5 +1,5 @@
-import * as React from 'react/addons';
-import * as Router from 'react-router';
+import React from 'react/addons';
+import Router from 'react-router';
 import {mainActions} from '../MainFlux';
 var Link = Router.Link;
 var cs = React.addons.classSet;

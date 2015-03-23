@@ -1,6 +1,6 @@
 import {mainStore, mainActions} from '../MainFlux';
-import * as React from 'react';
-import * as Reflux from 'reflux';
+import React from 'react';
+import Reflux from 'reflux';
 
 var LanguageSelector = React.createClass({
   mixins: [Reflux.listenTo(mainStore, "onStoreEvent")],

@@ -1,7 +1,7 @@
 import LanguageSelector from './LanguageSelector';
 import {mainActions} from '../MainFlux';
-import * as React from 'react/addons';
-import * as Router from 'react-router';
+import React from 'react/addons';
+import Router from 'react-router';
 var Link = Router.Link;
 var cs = React.addons.classSet;
 

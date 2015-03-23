@@ -1,6 +1,6 @@
 import Utils from '../Utils';
-import * as React from 'react';
-import * as Reflux from 'reflux';
+import React from 'react';
+import Reflux from 'reflux';
 
 var Resume = React.createClass({
     updateResume() {

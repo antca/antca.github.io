@@ -3,8 +3,8 @@ import Home from './components/Home';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import * as React from 'react';
-import * as Router from 'react-router';
+import React from 'react';
+import Router from 'react-router';
 import {Route, DefaultRoute, Redirect} from 'react-router';
 
 var routes = (

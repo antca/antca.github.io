@@ -2,8 +2,8 @@ import Header from './Header';
 import Footer from './Footer';
 import DrawerMenu from './DrawerMenu';
 import {mainStore} from '../MainFlux';
-import * as React from 'react';
-import * as Reflux from 'reflux';
+import React from 'react';
+import Reflux from 'reflux';
 import {RouteHandler} from 'react-router';
 
 var Main = React.createClass({

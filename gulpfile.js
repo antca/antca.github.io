@@ -4,7 +4,7 @@ var serve = require('gulp-serve');
 var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var watchify = require('watchify');
-var to5 = require('6to5-browserify');
+var babelify = require('babelify');
 var livereload = require('gulp-livereload');
 var uglify = require('gulp-uglifyjs');
 var buffer = require('vinyl-buffer');
@@ -19,7 +19,7 @@ gulp.task('clientScripts', function() {
   .require(__dirname + '/scripts/client/main.js', {
     entry: true
   })
-  .transform(to5)
+  .transform(babelify)
   .on('update', rebundle)
   .on('log', function(log) {
     console.log('[watchify] ' + log);
@@ -44,7 +44,7 @@ gulp.task('prodClientScripts', function() {
     entries: [__dirname + '/scripts/client/main.js'],
     debug: false
   })
-  .transform(to5.configure({
+  .transform(babelify.configure({
     sourceMap: false
   }))
   .bundle()

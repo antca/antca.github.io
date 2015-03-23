@@ -1,5 +1,5 @@
-import * as React from 'react';
-import * as Router from 'react-router';
+import React from 'react';
+import Router from 'react-router';
 
 
 var Contact = React.createClass({

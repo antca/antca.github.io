@@ -1,6 +1,6 @@
 import Utils from '../Utils';
 import ProjectDisplay from './ProjectDisplay';
-import * as React from 'react';
+import React from 'react';
 
 var Projects = React.createClass({
   getInitialState() {
